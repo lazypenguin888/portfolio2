@@ -6,7 +6,7 @@
       stack: ['JavaScript', 'HTML/CSS', 'API/Asynchronous'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: process.env.PUBLIC_URL + '/webdev',
+      route: 'https://lazypenguin888.github.io/portfolio-webdev',
     },
     {
       name: 'Bakery V1',
@@ -15,7 +15,7 @@
       stack: ['React', 'HTML/CSS'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: process.env.PUBLIC_URL + '/bakeryv1',
+      route: 'https://lazypenguin888.github.io/portfolio-bakeryv1',
     },
     {
       name: 'Bakery V2',
@@ -24,7 +24,7 @@
       stack: ['React', 'HTML/CSS'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: process.env.PUBLIC_URL + '/bakeryv2',
+      route: 'https://lazypenguin888.github.io/portfolio-bakeryv2',
     },
     {
       name: 'Flutter - Predict Age',
@@ -33,7 +33,7 @@
       stack: ['Flutter', 'API/asynchronous'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: process.env.PUBLIC_URL + '/flutter',
+      route: 'https://lazypenguin888.github.io/portfolio-flutter',
     },
   ]
   

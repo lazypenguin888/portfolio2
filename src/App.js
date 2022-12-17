@@ -8,8 +8,6 @@ import BakeryV2 from './components/BakeryV2/BakeryV2'
 import Flutter from './components/Flutter/Flutter'
 import Webdev from './components/Webdev/Webdev'
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
@@ -22,19 +20,9 @@ const App = () => {
   ]);
 
   return (
-    // <div id='top' className={`${themeName} app`}>
-    //   <RouterProvider router={router} />
-    // </div>
-
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/bakeryv1" element={<BakeryV1/>} />
-        <Route path="/bakeryv2" element={<BakeryV2/>} />
-        <Route path="/flutter" element={<Flutter/>} />
-        <Route path="/webdev" element={<Webdev/>} />
-      </Routes>
-    </BrowserRouter>
+    <div id='top' className={`${themeName} app`}>
+      <RouterProvider router={router} />
+    </div>
   )
 }
 

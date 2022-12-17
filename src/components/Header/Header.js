@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header className='header center'>
-     <a href="/">
+     <a href={process.env.PUBLIC_URL + '/'}>
         <img className="img" src={require("../../images/lazy_penguin.png")}  alt="BakeryV1 Mainpage"/>
      </a>
       <Navbar />
