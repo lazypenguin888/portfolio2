@@ -6,7 +6,7 @@
       stack: ['JavaScript', 'HTML/CSS', 'API/Asynchronous'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: '/webdev',
+      route: process.env.PUBLIC_URL + '/webdev',
     },
     {
       name: 'Bakery V1',
@@ -15,7 +15,7 @@
       stack: ['React', 'HTML/CSS'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: '/bakeryv1',
+      route: process.env.PUBLIC_URL + '/bakeryv1',
     },
     {
       name: 'Bakery V2',
@@ -24,17 +24,17 @@
       stack: ['React', 'HTML/CSS'],
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
-      route: '/bakeryv2',
+      route: process.env.PUBLIC_URL + '/bakeryv2',
     },
     {
-        name: 'Flutter - Predict Age',
-        description:
-          'Learning development of mobile applications with Flutter, and how to involve asynchronous calls',
-        stack: ['Flutter', 'API/asynchronous'],
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        route: '/flutter',
-      },
+      name: 'Flutter - Predict Age',
+      description:
+        'Learning development of mobile applications with Flutter, and how to involve asynchronous calls',
+      stack: ['Flutter', 'API/asynchronous'],
+      sourceCode: 'https://github.com',
+      livePreview: 'https://github.com',
+      route: process.env.PUBLIC_URL + '/flutter',
+    },
   ]
   
   const skills = [
