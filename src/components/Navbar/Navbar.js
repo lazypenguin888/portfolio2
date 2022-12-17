@@ -20,7 +20,7 @@ const Navbar = () => {
       >
         <li className='nav__list-item'>
             <a
-            href='/'
+            href={process.env.PUBLIC_URL + '/'}
             onClick={toggleNavList}
             className='link link--nav'
             >
