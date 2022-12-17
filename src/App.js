@@ -12,11 +12,11 @@ const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
   const router = createBrowserRouter([
-    { path: "/", element:<Main />,},
-    { path: "/bakeryv1", element:<BakeryV1/>,},
-    { path: "/bakeryv2", element:<BakeryV2/>,},
-    { path: "/flutter", element:<Flutter/>,},
-    { path: "/webdev", element:<Webdev/>,},
+    { path: process.env.PUBLIC_URL + "/", element:<Main />,},
+    { path: process.env.PUBLIC_URL + "/bakeryv1", element:<BakeryV1/>,},
+    { path: process.env.PUBLIC_URL + "/bakeryv2", element:<BakeryV2/>,},
+    { path: process.env.PUBLIC_URL + "/flutter", element:<Flutter/>,},
+    { path: process.env.PUBLIC_URL + "/webdev", element:<Webdev/>,},
   ]);
 
   return (
