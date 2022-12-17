@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio2/static/css/main.659f57b1.css",
+    "main.js": "/portfolio2/static/js/main.10f06a38.js",
+    "static/media/chocolate-chip-cookie.png": "/portfolio2/static/media/chocolate-chip-cookie.f31f6a15ab723d2a36bb.png",
+    "static/media/egg-tart.png": "/portfolio2/static/media/egg-tart.d59d8eec2b9636b94bfc.png",
+    "static/media/matcha-tiramisu.png": "/portfolio2/static/media/matcha-tiramisu.62a5b7fa6d7691f19b6b.png",
+    "static/media/PVD-NY Peter Pan November 24.pdf": "/portfolio2/static/media/PVD-NY Peter Pan November 24.f9d1dcb56b6dd1b3cc99.pdf",
+    "static/media/egg-custard-bun.png": "/portfolio2/static/media/egg-custard-bun.0410fcf96e5b09381195.png",
+    "static/media/stuffed-croissant.png": "/portfolio2/static/media/stuffed-croissant.2cd371f6cbbbd01c3bcd.png",
+    "static/media/iced-latte.png": "/portfolio2/static/media/iced-latte.a3ef94af48a08e397a90.png",
+    "static/media/gingerbread-man.png": "/portfolio2/static/media/gingerbread-man.83b5439b27014d7c39b4.png",
+    "static/media/everything-bagel.png": "/portfolio2/static/media/everything-bagel.b5c165d6ccb95bc691e5.png",
+    "static/media/strawberry-cheesecake.png": "/portfolio2/static/media/strawberry-cheesecake.e1990626cc00623628ff.png",
+    "static/media/cream-puff.png": "/portfolio2/static/media/cream-puff.6160c7a30a6413f19cc3.png",
+    "static/media/taro-bun.png": "/portfolio2/static/media/taro-bun.fa39a41cbe876c9afb4f.png",
+    "static/media/macarons.png": "/portfolio2/static/media/macarons.ec52b46de5c85bba9ab8.png",
+    "index.html": "/portfolio2/index.html",
+    "main.659f57b1.css.map": "/portfolio2/static/css/main.659f57b1.css.map",
+    "main.10f06a38.js.map": "/portfolio2/static/js/main.10f06a38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.659f57b1.css",
+    "static/js/main.10f06a38.js"
+  ]
+}
